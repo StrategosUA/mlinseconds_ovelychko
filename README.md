@@ -4,6 +4,7 @@ Hello!
 
 04/06/2019 Roman Koshlyak (here and after - RK) announced his initiative to teach 3 people basics of deep ML. 
 https://www.facebook.com/groups/udsclub/2367546239958274
+
 https://github.com/dev-rkoshlyak/mlinseconds
 
 RK: Looking for people for new batch.
@@ -24,6 +25,7 @@ RK: Details for the program
 --------------------------------------------------------------------------------------
 
 1 week (till 09/06/2019) - HelloXOR
+
 2 week (till 16/06/2019) - HelloXOR in less then 10 steps
 https://www.facebook.com/notes/machine-learning-in-seconds-deep-learning-artificial-intelligence-ai/hello-xor/198583254277577/
 RK: At this point, please share your git commit with solution for hello xor. 
