@@ -1,0 +1,14 @@
+My worklog during week was not linear:
+
+Monday 10 - Friday 14 were spent to read theory and crawling through helloxor, solutionmanager and gridsearch code.
+No tangible improvement :(
+The main misunderstanding was in tweaking only 2 hyperparameters - lr and hidden size.
+
+Saturday 15 hint from Roman to try grid search for every possible parameter moved me forward from dead point. 
+Hint from Anrii Skrypchenko showed me how to construct it in code.
+
+Progress:
+tuning lr and hs gave me 100 minimum steps
+loss function 100->66
+momentum 66->35
+activtion function 35->7
