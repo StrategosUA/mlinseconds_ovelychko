@@ -1,0 +1,47 @@
+"""
+GET STARTED
+
+As I have very outdated notebook I want to study in cloud. There is a way of cloning git directly to colab, but looks like it is uploaded only for session. 
+My saved version of model wasn't accesible next day, so I was looking for a way to save results in my GDrive.
+
+Created folder in my GDrive for ML course and copied there Roman's git:
+
+- downloaded his git as zip-file,
+- uploaded to my GDrive.
+Also there are ways to clone git directly to GDrive, but they require more relying on desktop.
+"""
+
+## 1.Preparing for work
+
+# Load the Drive helper and mount
+from google.colab import drive
+
+# This will prompt for authorization.
+drive.mount('/content/drive')
+
+# Return the current working directory path.
+!pwd
+
+# Target dir in my case is /content/drive/My Drive/ML/mlinseconds
+%cd drive/My Drive/ML/mlinseconds
+
+# Return the current working directory path (if there is need to check)
+!pwd
+
+# Run problem file AS IS before adjusting model
+!python -m mlis.problems.helloXor
+
+# Open file
+!cat mlis/problems/helloXor.py
+
+# Copy contents of the file above, paste to new Colab cell and add at the beginning the line of code which specifies where to save your adjusted version.
+# %%writefile mlis/problems/helloXor_ADJUSTED.py
+
+
+## 2. Editing helloXor script
+
+#a place where to save your adjusted version
+%%writefile mlis/problems/helloXor_ADJUSTED.py
+
+# Run problem file AFTER adjusting model
+!python -m mlis.problems.helloXor_ADJUSTED
