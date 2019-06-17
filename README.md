@@ -3,7 +3,10 @@
 Hello!
 
 04/06/2019 Roman Koshlyak (here and after - RK) announced his initiative to teach 3 people basics of deep ML. 
+
 https://www.facebook.com/groups/udsclub/2367546239958274
+
+https://www.facebook.com/groups/195065914629311/
 
 https://github.com/dev-rkoshlyak/mlinseconds
 
