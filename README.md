@@ -28,6 +28,7 @@ RK: Details for the program
 
 2 week (till 16/06/2019) - HelloXOR in less then 10 steps
 https://www.facebook.com/notes/machine-learning-in-seconds-deep-learning-artificial-intelligence-ai/hello-xor/198583254277577/
+
 RK: At this point, please share your git commit with solution for hello xor. 
     Also write down your work log. Write down what you tried, what worked and what did not work. 
     How much time you spend on what and what was improvement from it. Write down your pain points and how you overcome them
