@@ -38,3 +38,24 @@ RK: At this point, please share your git commit with solution for hello xor.
 
 3 week (till 23/06/2019) - General CPU
 https://www.facebook.com/notes/machine-learning-in-seconds-deep-learning-artificial-intelligence-ai/general-cpu/198587934277109/
+
+    https://github.com/DeVyacheslav/Deep-learning-practice/blob/master/mlis/problems/generalCpu.py
+    https://github.com/imylyanyk/mlinseconds/commit/985839414b3f51ee39043e8ceb390fa9b36a73d3
+    https://github.com/panda4us/mlinseconds/blob/master/mlis/problems/generalCpu_Adam.py
+    And actually setting up betas(mean and std) quite apart from the default ones in Adam allowed to go below the 10 steps on average
+    https://github.com/vlyubin/mlinseconds/commit/84ec38c060c3bc0fb9f3e075bde04a70f6e40e27
+    https://github.com/mpylypovych/mlinseconds/blob/master/mlis/problems/generalCpu.py
+    https://github.com/mskoryk/mlinseconds_mskoryk/blob/master/generalCpu.py
+
+RK: https://www.youtube.com/watch?v=5qefnAek8OA   
+    that's stuff works okay if you have a lot of steps, it's broken if we have small number of steps. 
+    Additionally, it add small "noise" to results of test data. It does not matter in cases when test data different from train data
+
+RK: weight decay is useless for general cpu, because our train data = weight data. 
+    Same about data permutation - should have no effect at all since we train on all data
+RK: grid search on number of layers
+
+4 week (till 30/06/2019) - findMe
+https://github.com/dev-rkoshlyak/mlinseconds/blob/master/mlis/problems/findMe.py
+RK: feel free to use handcrafted features in findMe, it obviously would helped with previous task, if you would make model linearly separable, but for findMe it would not be an option because of size.
+
